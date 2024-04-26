@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+#root{
+    margin-top: 30px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: tomato;
+    padding: 15px;
+}
+#navbar > a{
+    color: white;
+    text-decoration: none;
+}
+#root{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#root >div {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
