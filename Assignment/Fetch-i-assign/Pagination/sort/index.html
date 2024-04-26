@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting</title>
+    <style>
+        #container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 60px;
+}
+#container >div{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: auto; */
+    background-color: rgb(17, 136, 136);
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <select id="sortData">
+        <option value="">data sorting with name</option>
+        <option value="asc">Asc</option>
+        <option value="desc">Dese</option>
+    </select>
+    <div id="container"></div>
+</body>
+</html>
+<script src="index.js"></script>

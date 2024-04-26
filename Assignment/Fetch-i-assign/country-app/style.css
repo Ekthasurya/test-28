@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    text-align: center;
+    color: rgb(72, 100, 224);   
+}
+#sortData{
+    color: aqua;
+}
+#container{
+    padding-top: 60px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    background-color: darkgray;
+    border-radius: 10px;
+}
+#container > div{
+    /* border: 1px solid red; */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: cyan;
+    border-radius: 20px;
+
+}
